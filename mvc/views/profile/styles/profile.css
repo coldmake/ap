@@ -1,0 +1,144 @@
+.profilebox {
+    display: block;
+    position: absolute;
+    height: 420px;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 70px;
+    border-color: #707070;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 14px rgba(0, 82, 82, 0.35);
+}
+
+#profileForm {
+    display: block;
+    width: 100%;
+}
+
+.left_div {
+    width:50%;
+    height: 350px;
+    float:left;
+}
+
+.right_div {
+    width:50%;
+    height: 350px;
+    float:right;
+}
+
+.textboxusual {
+    position:relative;
+    width:220px;
+    height:30px;
+}
+
+.facebookconnect {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+#user-picture img {
+    display: block;
+    margin: 50px auto !important;
+}
+
+#profileForm img {
+    display: block;
+    margin: 0 auto;
+}
+
+#profileForm select {
+    display: block;
+    margin: 0 auto;
+    color: #524D4D;
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#profileForm label {
+    display: block;
+    font-size: 18px;
+    color: #8C7E7E;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+    margin: 25px auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.name_label {
+    margin-top: 40px !important;
+}
+
+#profileForm input {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4; 
+    padding: 6px 12px;
+    border: 1px solid #AD9C9C;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px white;
+    display: block;
+    transition: all 0.08s ease-in-out 0s;
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background: none repeat scroll 0 0 transparent;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+#profileForm input:focus {
+    border-color: #707070;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 14px rgba(0, 82, 82, 0.35);
+}
+
+#profileForm button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #b3b3b3) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #b3b3b3 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#b3b3b3');
+    background-color:#ededed;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b3b3b3;
+    display:inline-block;
+    color:#5c5c5c;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+#profileForm button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b3b3b3), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #b3b3b3 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#ededed');
+    background-color:#b3b3b3;
+}
+
+#profileForm button:active {
+    position:relative;
+    top:1px;
+}
+
+.cancelButton {
+    position: absolute;
+    top: 10px;
+    left: 95%;  
+}
+

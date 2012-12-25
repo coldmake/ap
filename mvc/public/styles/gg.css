@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* general part */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "helvetica neue",arial,sans-serif;
+    font-size: 10px;
+    color: #211922;
+    background-image: url('../images/background2.png');
+    background-repeat: repeat;
+}
+
+ul li{
+    position: relative;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}

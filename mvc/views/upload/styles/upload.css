@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#logo {
+display: block;
+width: 203px;
+height: 49px;
+margin: 25px auto 25px;
+background: url('/images/logo.png') 0 0;
+}
+
+#heading {
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}

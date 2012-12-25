@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* the whole web page */
+#container {
+}
+
+/* bodyContainer part */
+#bodyContainer {
+    position: relative;
+    margin: 30px auto;
+}
+
+#profileSection {
+    width: 60%;
+    min-width: 700px;
+    margin: 0 auto;
+    display: block;
+    height: 180px;
+}
+
+/* this is for the profile panel */
+.profilePanel {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: 145px;
+    width: 400px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.5);
+    position: relative;
+    float: left;
+}
+
+#user-picture {
+    display: block;
+    float: left;
+    margin: 5px;
+}
+
+#user-picture img {
+    height: 135px;
+}
+
+#user-name {
+    display: block;
+    color: #534F4F;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+}
+
+#editProfile {
+    float: right;
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #F0EDED;
+    background-image: -moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);
+    color: #524D4D;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+    font-family: "helvetica neue",arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 0.45em 0.825em;
+    text-align: center;
+    transition: all 0.05s ease-in-out 0s;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BBBBBB;
+    width: 150px;
+}
+
+#editProfile:hover {
+    background-color: #F2F0F0;
+    background-image: -moz-linear-gradient(center top , #FDFCFC, #FBF9F9 50%, #F7F5F6 50%, #F2F0F0);
+    color: #666060;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+}
+
+#editProfile:active {
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 2px rgba(232, 230, 230, 0.5);
+    background-color: #EBE8E8;
+    background-image: -moz-linear-gradient(center top , #F8F4F5, #F3F0F0 50%, #F1EEEF 50%, #EBE8E8);
+    border-color: #B7B7B7;
+    color: #454141;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+}
+
+hr {
+    margin-top: 10px;
+    height: 5px;
+    width: 80%;
+    background-attachment: #534F4F;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #b3b3b3) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #b3b3b3 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#b3b3b3');
+    background-color:#ededed;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b3b3b3;
+    color:#5c5c5c;
+}
+/* content part */
+#wrapper {
+    border: medium none;
+    border-style: none;
+    margin:0 auto;
+    min-width: 750px;
+    position: relative;
+}
+
+#socialButtons {
+    width: 70%;
+    min-width: 600px;
+    margin:15px auto;
+    text-align: center;
+}
+
+#socialButtons button {
+    margin: 0;
+    width: 150px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #bcccdb;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #bcccdb;
+    box-shadow:inset 0px 1px 0px 0px #bcccdb;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9bbde0), color-stop(1, #15528f) );
+    background:-moz-linear-gradient( center top, #9bbde0 5%, #15528f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9bbde0', endColorstr='#15528f');
+    background-color:#9bbde0;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #447cb3;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #3c7bba;
+}
+
+#socialButtons button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #15528f), color-stop(1, #9bbde0) );
+    background:-moz-linear-gradient( center top, #15528f 5%, #9bbde0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#15528f', endColorstr='#9bbde0');
+    background-color:#15528f;
+}
+
+#socialButtons button:active {
+    position:relative;
+    top:1px;
+}
+
+#uploadedButton {
+    float: left;
+}
+
+#uploadButton {
+    float: right;
+}

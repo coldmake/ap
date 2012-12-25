@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+form {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+li {
+    list-style: none outside none;
+    text-align: -webkit-match-parent;
+}
+
+form li {
+    display: block;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+form label {
+    color: #D7D7D7;
+    display: block;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    z-index: 4;
+    cursor: text;
+}
+
+input {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4; 
+    padding: 6px 12px;
+    border: 1px solid #AD9C9C;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px white;
+    display: block;
+    transition: all 0.08s ease-in-out 0s;
+    width: 100%;
+    z-index: 3;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background: none repeat scroll 0 0 transparent;
+    background-color: #FFFFFF;
+}
+
+input:focus {
+    border-color: #707070;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 14px rgba(0, 82, 82, 0.35);
+}
+
+#buttonsContainer {
+    width: 120px;
+    display: block;
+    margin-top: 40px;
+}
+
+#buttonsContainer button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #b3b3b3) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #b3b3b3 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#b3b3b3');
+    background-color:#ededed;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b3b3b3;
+    display:inline-block;
+    color:#5c5c5c;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#buttonsContainer button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b3b3b3), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #b3b3b3 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#ededed');
+    background-color:#b3b3b3;
+}
+
+#buttonsContainer button:active {
+    position:relative;
+    top:1px;
+}
+
